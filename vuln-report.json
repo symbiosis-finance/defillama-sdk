@@ -1,0 +1,189 @@
+{
+  "scan_date": "2026-05-21",
+  "pre_patch_count": 16,
+  "post_patch_count": 2,
+  "resolved_count": 14,
+  "changes": [],
+  "remaining": [
+    {
+      "name": "elliptic",
+      "version": "6.6.1",
+      "vuln_ids": [
+        "GHSA-848j-6mx2-7j84"
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "8.18.0",
+      "vuln_ids": [
+        "GHSA-58qx-3vcg-4xpx"
+      ]
+    }
+  ],
+  "escalations": [
+    {
+      "package": "@babel/helpers",
+      "installed_version": "7.20.1",
+      "severity": "MODERATE",
+      "advisory_ids": [
+        "GHSA-968p-4wvh-cqc8"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.@babel/helpers = \"7.26.10\""
+    },
+    {
+      "package": "@babel/traverse",
+      "installed_version": "7.20.1",
+      "severity": "CRITICAL",
+      "advisory_ids": [
+        "GHSA-67hx-6x53-jw92"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.@babel/traverse = \"7.23.2\""
+    },
+    {
+      "package": "bn.js",
+      "installed_version": "5.2.1",
+      "severity": "MODERATE",
+      "advisory_ids": [
+        "GHSA-378v-28hj-76wf"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.bn.js = \"5.2.3\""
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.11",
+      "severity": "MODERATE",
+      "advisory_ids": [
+        "GHSA-f886-m6hf-6m8v",
+        "GHSA-v6h2-p8h4-qcjw"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.brace-expansion = \"1.1.13\""
+    },
+    {
+      "package": "braces",
+      "installed_version": "3.0.2",
+      "severity": "HIGH",
+      "advisory_ids": [
+        "GHSA-grv7-fg5c-xmjg"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.braces = \"3.0.3\""
+    },
+    {
+      "package": "cross-spawn",
+      "installed_version": "7.0.3",
+      "severity": "HIGH",
+      "advisory_ids": [
+        "GHSA-3xgq-45jj-v275"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.cross-spawn = \"7.0.5\""
+    },
+    {
+      "package": "elliptic",
+      "installed_version": "6.5.4",
+      "severity": "CRITICAL",
+      "advisory_ids": [
+        "GHSA-fc9h-whq2-v747",
+        "GHSA-49q7-c7j4-3p7m",
+        "GHSA-977x-g7h5-7qgw",
+        "GHSA-848j-6mx2-7j84",
+        "GHSA-f7q4-pwc6-w24p",
+        "GHSA-vjh7-7g9h-fjfh",
+        "GHSA-434g-2637-qmqr"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.elliptic = \"6.6.1\""
+    },
+    {
+      "package": "form-data",
+      "installed_version": "3.0.1",
+      "severity": "CRITICAL",
+      "advisory_ids": [
+        "GHSA-fjxv-7rqg-78g4"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.form-data = \"3.0.4\""
+    },
+    {
+      "package": "semver",
+      "installed_version": "7.3.8",
+      "severity": "HIGH",
+      "advisory_ids": [
+        "GHSA-c2qf-rxjj-qqgw"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.semver = \"7.5.2\""
+    },
+    {
+      "package": "json5",
+      "installed_version": "2.2.1",
+      "severity": "HIGH",
+      "advisory_ids": [
+        "GHSA-9c47-m6qq-7p4h"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.json5 = \"2.2.2\""
+    },
+    {
+      "package": "micromatch",
+      "installed_version": "4.0.5",
+      "severity": "MODERATE",
+      "advisory_ids": [
+        "GHSA-952p-6rrq-rcjv"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.micromatch = \"4.0.8\""
+    },
+    {
+      "package": "minimatch",
+      "installed_version": "3.1.2",
+      "severity": "HIGH",
+      "advisory_ids": [
+        "GHSA-7r86-cg39-jmmj",
+        "GHSA-3ppc-4f35-3m26",
+        "GHSA-23c5-xmqv-rm74"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.minimatch = \"3.1.4\""
+    },
+    {
+      "package": "picomatch",
+      "installed_version": "2.3.1",
+      "severity": "HIGH",
+      "advisory_ids": [
+        "GHSA-c2c7-rcm5-vvqj",
+        "GHSA-3v7f-55p6-f55p"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.picomatch = \"2.3.2\""
+    },
+    {
+      "package": "ws",
+      "installed_version": "7.4.6",
+      "severity": "HIGH",
+      "advisory_ids": [
+        "GHSA-3h5v-q93c-6h6q"
+      ],
+      "dep_path": "unknown",
+      "why_no_fix": "Could not trace to a direct manifest ancestor",
+      "override_recipe": "overrides.ws = \"7.5.10\""
+    }
+  ]
+}
